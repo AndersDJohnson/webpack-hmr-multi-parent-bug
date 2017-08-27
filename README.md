@@ -1,5 +1,7 @@
 # webpack-hmr-multi-parent-bug
 
+For https://github.com/webpack/webpack/issues/5584.
+
 This project demonstrates an issue with Webpack's Hot Module Replacement feature
 when the hot replaced module exists in two different dependency trees and only one
 accepts the hot replacement.
