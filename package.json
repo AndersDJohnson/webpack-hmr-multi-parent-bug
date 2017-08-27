@@ -1,0 +1,22 @@
+{
+  "name": "webpack-hmr-multi-parent-bug",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --hot-only --inline",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
